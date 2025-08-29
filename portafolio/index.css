@@ -1,0 +1,83 @@
+
+/* Fuentes */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6f9;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background: #fff;
+}
+
+.navbar .nav-link {
+  color: #444;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #e75480 !important;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive;
+  color: #e75480 !important;
+  font-size: 1.6rem;
+}
+
+/* Sección inicio */
+.inicio {
+  background: linear-gradient(135deg, #fdf6f9, #fff);
+}
+
+.titulo {
+  font-family: 'Dancing Script', cursive;
+  color: #e75480;
+  font-size: 2.5rem;
+}
+
+.foto-perfil {
+  border: 4px solid #e75480 !important;
+  box-shadow: 0 4px 15px rgba(231,84,128,0.3);
+}
+
+/* Botones */
+.boton-elegante {
+  background: linear-gradient(45deg, #e75480, #b565a7);
+  color: #fff !important;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.boton-elegante:hover {
+  background: linear-gradient(45deg, #b565a7, #e75480);
+  transform: scale(1.05);
+}
+
+/* Proyectos */
+.proyectos {
+  background: #f8f0f5;
+}
+
+.card-proyecto {
+  border: none;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card-proyecto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(231,84,128,0.2);
+}
+
+/* Footer */
+.footer {
+  background: #e75480;
+  color: #fff;
+  font-weight: 500;
+}
